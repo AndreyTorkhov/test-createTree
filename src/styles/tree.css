@@ -1,0 +1,12 @@
+.create-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 8rem;
+  font-size: 2.4rem;
+}
+
+.tree-node {
+  list-style-type: none;
+  margin-left: 20px;
+}
