@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Древовидное отображение услуг
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## О проекте
 
-## Available Scripts
+Проект представляет собой демонстрацию древовидного отображения услуг с использованием React. Каждая услуга может иметь дочерние элементы, что позволяет организовать иерархию услуг.
 
-In the project directory, you can run:
+## Технологии и особенности
 
-### `npm start`
+1. Отображение услуг в виде древовидной структуры.
+2. Данные о услугах получаются с бэкенда посредством REST API в формате JSON.
+3. Отображение цены для каждой услуги.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Установка и запуск
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Клонируйте репозиторий: `git clone https://github.com/AndreyTorkhov/test-createTree.git`
+2. Перейдите в папку проекта: `cd test-ms`
+3. Установите зависимости: `npm install`
+4. Запустите приложение: `npm start`
 
-### `npm test`
+## Технологии
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/): JavaScript-библиотека для создания пользовательских интерфейсов.
+- [Node.js](https://nodejs.org/): JavaScript-среда выполнения на стороне сервера, используемая для создания серверных приложений.
+- [React Router](https://reactrouter.com/): Навигация для приложений React.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout): CSS-модуль для создания более эффективного и предсказуемого макета.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5): Последняя версия языка разметки веб-страниц.
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Современная версия JavaScript для разработки веб-приложений.
+- [Git](https://git-scm.com/): Распределенная система контроля версий.
+- [GitHub](https://github.com/): Платформа для совместной разработки и хранения кода.
+- [npm](https://www.npmjs.com/): Пакетный менеджер для установки зависимостей проекта.
 
-### `npm run build`
+## Требования
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Для установки и запуска проекта, необходим [NodeJS](https://nodejs.org/) v8+.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Создание билда
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Чтобы выполнить production сборку, выполните команду:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm run build
+```
