@@ -31,8 +31,6 @@ function CreateTree() {
       } else {
         newNode.textContent = ">" + node.name;
       }
-
-      // Рекурсивно создаем дочерние узлы
       const children = services.filter((service) => service.head === node.id);
       if (children.length > 0) {
         const childList = document.createElement("ul");
@@ -55,6 +53,8 @@ function CreateTree() {
       createTree(page, servicesData);
     }
   }, [servicesData]);
+
+  return <div className="create-tree" id="create-tree"></div>;
 }
 
 export default CreateTree;
